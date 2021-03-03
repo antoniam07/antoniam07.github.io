@@ -1,0 +1,151 @@
+* {
+  border: 0px;
+  padding-left: 0px;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+ul{
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  background-color: #8db190;
+    margin: 10px;
+    min-width: 50px;
+height: 20px;
+padding: 10px;
+    list-style-type: none;
+    display: flex;
+flex-direction: row;
+     text-align: justify;
+}
+
+nav a:link {
+ color: #fff;
+ text-decoration: none;
+ font-family: 'montserrat', sans-serif;
+ font-weight: 700;
+ font-style: normal;
+ font-weight: bold;
+     text-align: right;
+}
+
+nav a:hover {
+  background-color: #ff6bc1;
+    color:#fff;
+}
+
+li:hover {
+  background-color: #ff6bc1;
+}
+
+nav a:active {
+  background-color: #e90e67;
+    color:#fff;
+}
+
+li:active {
+  background-color: #e90e6;
+}
+
+nav a:visited {
+    color:#fff;
+}
+
+h1 {
+  font-family: 'alga', serif;
+font-weight: 700;
+font-style: normal;
+color: #776a66;
+font-size: 72px;
+}
+
+h2 {
+  font-family: 'montserrat alternates', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+color: #ff6bc1;
+}
+
+button {
+  background-color: #2c543e;
+    color:#fff;
+    text-decoration: none;
+    font-family: 'montserrat alternates', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    min-width: 50px;
+height: 40px;
+padding: 10px;
+}
+
+button:hover {
+  background-color: #8db190;
+}
+
+#flower {
+  float: left;
+}
+#springtime {
+  position: absolute;
+   right: 700px;
+   top: 350px;
+}
+#discover {
+  position: absolute;
+   right: 730px;
+   top: 425px;
+}
+#browse {
+  position: absolute;
+   right: 1040px;
+   top: 475px;
+}
+
+
+#holly {
+  position: absolute;
+   top: 600px;
+      right: 500px;
+}
+#winter {
+  position: absolute;
+   right: 700px;
+   top: 700px;
+}
+#plants {
+  position: absolute;
+   right: 775px;
+   top: 775px;
+}
+#learn {
+  position: absolute;
+   right: 775px;
+   top: 825px;
+}
+
+
+#container {
+  padding-top: 75px;
+}
+
+#container2 {
+  padding-top: 200px;
+  padding-right: 500px
+}
+
+footer {
+  height: 500px;
+}

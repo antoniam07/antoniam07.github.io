@@ -1,0 +1,200 @@
+* {
+  border: 0px;
+  padding-left: 0px;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+ul{
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  background-color: #8db190;
+    margin: 10px;
+    min-width: 50px;
+height: 20px;
+padding: 10px;
+    list-style-type: none;
+    display: flex;
+flex-direction: row;
+     text-align: justify;
+}
+
+nav a:link {
+ color: #fff;
+ text-decoration: none;
+ font-family: 'montserrat', sans-serif;
+ font-weight: 700;
+ font-style: normal;
+ font-weight: bold;
+     text-align: right;
+}
+
+nav a:hover {
+  background-color: #ff6bc1;
+    color:#fff;
+}
+
+li:hover {
+  background-color: #ff6bc1;
+}
+
+nav a:active {
+  background-color: #e90e67;
+    color:#fff;
+}
+
+nav a:visited {
+    color:#fff;
+}
+
+li:active {
+  background-color: #e90e6;
+}
+
+button {
+  background-color: #f2a96d;
+    color:#fff;
+    text-decoration: none;
+    font-family: 'montserrat alternates', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    min-width: 50px;
+height: 40px;
+padding: 10px;
+}
+
+button:hover {
+  background-color: #9399ff;
+}
+
+h1 {
+  font-family: 'alga', serif;
+font-weight: 700;
+font-style: normal;
+color: #776a66;
+font-size: 72px;
+}
+
+h2 {
+  font-family: 'montserrat alternates', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+color: #f2a96d;
+}
+
+#container {
+  padding-top: 75px;
+  padding-left: 100px;
+}
+
+#container2 {
+  padding-top: 100px;
+}
+
+#angel {
+  display: block;
+}
+#angeltext {
+  position: absolute;
+   right: 975px;
+   top: 525px;
+   color: #ff6bc1;
+}
+#angelbutton {
+  position: absolute;
+   right: 750px;
+   top: 525px;
+      background-color: #ff6bc1;
+}
+#angelbutton:hover {
+  background-color: #78308a;
+}
+
+#birthday {
+  display: block;
+    padding-top: 75px;
+}
+#birthdaytext {
+  position: absolute;
+   right: 975px;
+   top: 750px;
+      color: #ff6bc1;
+}
+#birthdaybutton {
+  position: absolute;
+   right: 750px;
+   top: 750px;
+      background-color: #ff6bc1;
+}
+#birthdaybutton:hover {
+  background-color: #78308a;
+}
+
+#irish {
+  display: block;
+    padding-top: 75px;
+}
+#irishtext {
+  position: absolute;
+   right: 995px;
+   top: 975px;
+      color: #ff6bc1;
+}
+#irishbutton {
+  position: absolute;
+   right: 750px;
+   top: 975px;
+      background-color: #ff6bc1;
+}
+#irishbutton:hover {
+  background-color: #78308a;
+}
+
+#bloom {
+  display: block;
+    padding-top: 75px;
+}
+#bloomtext {
+  position: absolute;
+   right: 1055px;
+   top: 1200px;
+      color: #ff6bc1;
+}
+#bloombutton {
+  position: absolute;
+   right: 750px;
+   top: 1200px;
+      background-color: #ff6bc1;
+}
+#bloombutton:hover {
+  background-color: #78308a;
+}
+
+#cart {
+  position: absolute;
+   right: 580px;
+   top: 250px;
+}
+
+#checkout {
+  position: absolute;
+   right: 550px;
+   top: 310px;
+}
+
+footer {
+  height: 500px;
+}
