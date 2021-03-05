@@ -195,6 +195,9 @@ color: #f2a96d;
    top: 310px;
    text-decoration: none;
 }
+#checkout:visited {
+  color: #fff;
+}
 
 footer {
   height: 500px;
